@@ -33,9 +33,9 @@ Under this representation, for each player $i \in \{1,2,3\}$, the player's payof
 The expected payoff function `Sᵢ(xᵢ₊₁, xᵢ₋₁)` for player $i$ can then be computed as:
 
 
-\begin{equation}
-    S_i(x_{i+1},x_{i-1}) = (1-x_{i+1}) (1-x_{i-1}) A_i + x_{i+1} (1-x_{i-1}) B_i + (1-x_{i+1}) x_{i-1} C_i + D_i
-\end{equation}
+$$
+S_i(x_{i+1},x_{i-1}) = (1-x_{i+1}) (1-x_{i-1}) A_i + x_{i+1} (1-x_{i-1}) B_i + (1-x_{i+1}) x_{i-1} C_i + x_{i+1} x_{i-1} D_i
+$$
 
 ### Hyperbolic Form 
 
