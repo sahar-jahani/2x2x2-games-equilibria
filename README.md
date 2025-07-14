@@ -58,11 +58,15 @@ So in the hyperbolic form, for each player $i \in \{1, 2, 3\}$, the player's pay
 
 If $M_i \neq 0$, the expected payoff functions from the hyperbolic form can be rewritten in product form as follows:
 
-\begin{align}
-		S_1(q,r)=& \quad(q - q_1) &\times \quad & (r - r_2)\quad -& K_1&\\
-		S_2(r,p)=& \quad(r - r_1) &\times \quad & (p - p_2)\quad -& K_2&\\
-		S_3(p,q)=& \quad(p - p_1) &\times \quad & (q - q_2)\quad -& K_3&\\
-\end{align}
+$$
+S_1(q,r)= \quad(q - q_1) \times \quad  (r - r_2)\quad - K_1
+$$
+$$
+S_2(r,p)= \quad(r - r_1) \times \quad  (p - p_2)\quad - K_2
+$$
+$$
+S_3(p,q)= \quad(p - p_1) \times \quad  (q - q_2)\quad - K_3
+$$
 
 Therefore, in the product form, all players' payoffs can be represented together by ``[p₁, q₂, K₁]``, ``[r₁, p₂, K₂]``, ``[q₁, r₂, K₃]``.
 
